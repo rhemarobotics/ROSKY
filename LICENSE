@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 MIT License
 
 Copyright (c) 2020 Lin Wei-Chih
@@ -225,6 +226,8 @@ SOFTWARE.
    limitations under the License.
 >>>>>>> d0cd7634fbbe79214fa0516d74c7e93f9a208a81
 =======
+=======
+>>>>>>> 72419c90eb0de0dac7de4daa39338a28b899154c
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -899,4 +902,7 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+<<<<<<< HEAD
 >>>>>>> 4b7fb0eaa0124322bca8717243803f3c8850dfb0
+=======
+>>>>>>> 72419c90eb0de0dac7de4daa39338a28b899154c
