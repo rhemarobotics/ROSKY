@@ -1,0 +1,6 @@
+set(ominibot_car_SETUP_PY_VERSION "0.0.0")
+set(ominibot_car_SETUP_PY_SCRIPTS "")
+set(ominibot_car_SETUP_PY_PACKAGES "ominibot_car")
+set(ominibot_car_SETUP_PY_PACKAGE_DIRS "include/ominibot_car")
+set(ominibot_car_SETUP_PY_MODULES "")
+set(ominibot_car_SETUP_PY_MODULE_DIRS "")

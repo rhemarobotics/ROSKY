@@ -1,0 +1,32 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~mean_d_0" : \b [double] Basic parameter for Lane_Filiter_node min: -10.0, default: 0.0, max: 10.0
+- \b "~mean_phi_0" : \b [double] Basic parameter for Lane_Filiter_node min: -10.0, default: 0.0, max: 10.0
+- \b "~sigma_d_0" : \b [double] Basic parameter for Lane_Filiter_node min: -10.0, default: 0.1, max: 10.0
+- \b "~sigma_phi_0" : \b [double] Basic parameter for Lane_Filiter_node min: -10.0, default: 0.1, max: 10.0
+- \b "~delta_d" : \b [double] Basic parameter for Lane_Filiter_node min: -1.0, default: 0.02, max: 1.0
+- \b "~delta_phi" : \b [double] Basic parameter for Lane_Filiter_node min: -1.0, default: 0.05, max: 1.0
+- \b "~d_max" : \b [double] Basic parameter for Lane_Filiter_node min: -10.0, default: 0.3, max: 10.0
+- \b "~d_min" : \b [double] Basic parameter for Lane_Filiter_node min: -10.0, default: -0.15, max: 10.0
+- \b "~phi_min" : \b [double] Basic parameter for Lane_Filiter_node min: -10.0, default: -1.5, max: 10.0
+- \b "~phi_max" : \b [double] Basic parameter for Lane_Filiter_node min: -10.0, default: 1.5, max: 10.0
+- \b "~cov_v" : \b [double] Basic parameter for Lane_Filiter_node min: -10.0, default: 0.5, max: 10.0
+- \b "~linewidth_while" : \b [double] Basic parameter for Lane_Filiter_node min: 0.0, default: 0.017, max: 10.0
+- \b "~linewidth_yellow" : \b [double] Basic parameter for Lane_Filiter_node min: 0.0, default: 0.017, max: 10.0
+- \b "~lane_width" : \b [double] Basic parameter for Lane_Filiter_node min: 0.0, default: 0.22, max: 10.0
+- \b "~min_max" : \b [double] Basic parameter for Lane_Filiter_node min: 0.0, default: 0.1, max: 10.0
+- \b "~use_min_segs" : \b [bool] Minimum number of segments for generating measurement for Lane_Filiter_node min: False, default: False, max: True
+- \b "~min_segs" : \b [int] Minimum number of segments for generating measurement for Lane_Filiter_node min: 0, default: 1, max: 20
+- \b "~use_maximum_segment_dist" : \b [bool] maximum segment distance for Lane_Filiter_node min: False, default: False, max: True
+- \b "~max_segment_dist" : \b [double] maximum segment distance for Lane_Filiter_node min: 0.0, default: 0.3, max: 20.0
+- \b "~use_distance_weighting" : \b [bool] distance weighting for Lane_Filiter_node min: False, default: False, max: True
+- \b "~zero_val" : \b [int] distance weighting for Lane_Filiter_node min: -10, default: 1, max: 10
+- \b "~l_peak" : \b [int] distance weighting for Lane_Filiter_node min: -10, default: 1, max: 10
+- \b "~peak_val" : \b [int] distance weighting for Lane_Filiter_node min: -10, default: 10, max: 10
+- \b "~l_max" : \b [int] distance weighting for Lane_Filiter_node min: -10, default: 2, max: 10
+- \b "~use_propagation" : \b [bool] use_propagation for Lane_Filiter_node min: False, default: False, max: True
+- \b "~sigma_d_mask" : \b [double] use_propagation for Lane_Filiter_node min: -10.0, default: 0.05, max: 10.0
+- \b "~sigma_phi_mask" : \b [double] use_propagation for Lane_Filiter_node min: -10.0, default: 0.05, max: 10.0
+

@@ -1,0 +1,37 @@
+\subsubsection usage Usage
+\verbatim
+<node name="rosky_msgs" pkg="rosky_msgs" type="rosky_msgs">
+  <param name="white_h_limit_min" type="int" value="0" />
+  <param name="white_h_limit_max" type="int" value="360" />
+  <param name="white_s_limit_min" type="int" value="0" />
+  <param name="white_s_limit_max" type="int" value="256" />
+  <param name="white_v_limit_min" type="int" value="0" />
+  <param name="white_v_limit_max" type="int" value="256" />
+  <param name="yellow_h_limit_min" type="int" value="0" />
+  <param name="yellow_h_limit_max" type="int" value="360" />
+  <param name="yellow_s_limit_min" type="int" value="0" />
+  <param name="yellow_s_limit_max" type="int" value="256" />
+  <param name="yellow_v_limit_min" type="int" value="0" />
+  <param name="yellow_v_limit_max" type="int" value="256" />
+  <param name="red_1_h_limit_min" type="int" value="0" />
+  <param name="red_1_h_limit_max" type="int" value="360" />
+  <param name="red_1_s_limit_min" type="int" value="0" />
+  <param name="red_1_s_limit_max" type="int" value="256" />
+  <param name="red_1_v_limit_min" type="int" value="0" />
+  <param name="red_1_v_limit_max" type="int" value="256" />
+  <param name="red_2_h_limit_min" type="int" value="0" />
+  <param name="red_2_h_limit_max" type="int" value="360" />
+  <param name="red_2_s_limit_min" type="int" value="0" />
+  <param name="red_2_s_limit_max" type="int" value="256" />
+  <param name="red_2_v_limit_min" type="int" value="0" />
+  <param name="red_2_v_limit_max" type="int" value="256" />
+  <param name="top_cutoff" type="int" value="0" />
+  <param name="dilation_kernel_size" type="int" value="0" />
+  <param name="hough_max_line_gap" type="int" value="0" />
+  <param name="hough_min_line_length" type="int" value="0" />
+  <param name="canny_thresholds_min" type="int" value="0" />
+  <param name="canny_thresholds_max" type="int" value="0" />
+  <param name="hough_thresholds" type="int" value="0" />
+</node>
+\endverbatim
+

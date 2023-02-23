@@ -1,0 +1,2 @@
+mapper:ominibot_car:rf2o_laser_odometry:rosky_base:rosky_msgs:rosky_navigation:rosky_slam:ydlidar
+-DCATKIN_DEVEL_PREFIX=/home/icshop/ROSKY/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/icshop/ROSKY/catkin_ws/install -G Unix Makefiles

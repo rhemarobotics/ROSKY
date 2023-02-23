@@ -1,0 +1,36 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~white_h_limit_min" : \b [int] The white minimum allowed field value Hue min: 0, default: 0, max: 360
+- \b "~white_h_limit_max" : \b [int] The white maximum allowed field value Hue min: 0, default: 360, max: 360
+- \b "~white_s_limit_min" : \b [int] The white minimum allowed field value Saturation min: 0, default: 0, max: 256
+- \b "~white_s_limit_max" : \b [int] The white maximum allowed field value Saturation min: 0, default: 256, max: 256
+- \b "~white_v_limit_min" : \b [int] The white minimum allowed field value Value min: 0, default: 0, max: 256
+- \b "~white_v_limit_max" : \b [int] The white maximum allowed field value Value min: 0, default: 256, max: 256
+- \b "~yellow_h_limit_min" : \b [int] The yellow allowed field value Hue min: 0, default: 0, max: 360
+- \b "~yellow_h_limit_max" : \b [int] The yellow maximum allowed field value Hue min: 0, default: 360, max: 360
+- \b "~yellow_s_limit_min" : \b [int] The yellow allowed field value Saturation min: 0, default: 0, max: 256
+- \b "~yellow_s_limit_max" : \b [int] The yellow allowed field value Saturation min: 0, default: 256, max: 256
+- \b "~yellow_v_limit_min" : \b [int] The yellow allowed field value Value min: 0, default: 0, max: 256
+- \b "~yellow_v_limit_max" : \b [int] The yellow allowed field value Value min: 0, default: 256, max: 256
+- \b "~red_1_h_limit_min" : \b [int] The red_1 minimum allowed field value Hue min: 0, default: 0, max: 360
+- \b "~red_1_h_limit_max" : \b [int] The red_1 maximum allowed field value Hue min: 0, default: 360, max: 360
+- \b "~red_1_s_limit_min" : \b [int] The red_1 minimum allowed field value Saturation min: 0, default: 0, max: 256
+- \b "~red_1_s_limit_max" : \b [int] The red_1 maximum allowed field value Saturation min: 0, default: 256, max: 256
+- \b "~red_1_v_limit_min" : \b [int] The red_1 minimum allowed field value Value min: 0, default: 0, max: 256
+- \b "~red_1_v_limit_max" : \b [int] The red_1 maximum allowed field value Value min: 0, default: 256, max: 256
+- \b "~red_2_h_limit_min" : \b [int] The red_2 minimum allowed field value Hue min: 0, default: 0, max: 360
+- \b "~red_2_h_limit_max" : \b [int] The red_2 maximum allowed field value Hue min: 0, default: 360, max: 360
+- \b "~red_2_s_limit_min" : \b [int] The red_2 minimum allowed field value Saturation min: 0, default: 0, max: 256
+- \b "~red_2_s_limit_max" : \b [int] The red_2 maximum allowed field value Saturation min: 0, default: 256, max: 256
+- \b "~red_2_v_limit_min" : \b [int] The red_2 minimum allowed field value Value min: 0, default: 0, max: 256
+- \b "~red_2_v_limit_max" : \b [int] The red_2 maximum allowed field value Value min: 0, default: 256, max: 256
+- \b "~top_cutoff" : \b [int] The top_cutoff  min: 1, default: 0, max: 200
+- \b "~dilation_kernel_size" : \b [int] The dilation_kernel_size  min: 1, default: 0, max: 10
+- \b "~hough_max_line_gap" : \b [int] The hough_max_line_gap  min: 1, default: 0, max: 10
+- \b "~hough_min_line_length" : \b [int] The hough_min_line_length  min: 1, default: 0, max: 10
+- \b "~canny_thresholds_min" : \b [int] The canny thresholds_min min: 1, default: 0, max: 200
+- \b "~canny_thresholds_max" : \b [int] The canny thresholds_max min: 1, default: 0, max: 200
+- \b "~hough_thresholds" : \b [int] The hough thresholds min: 1, default: 0, max: 200
+

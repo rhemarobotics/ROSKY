@@ -1,0 +1,33 @@
+\subsubsection usage Usage
+\verbatim
+<node name="rosky_msgs" pkg="rosky_msgs" type="rosky_msgs">
+  <param name="mean_d_0" type="double" value="0.0" />
+  <param name="mean_phi_0" type="double" value="0.0" />
+  <param name="sigma_d_0" type="double" value="0.1" />
+  <param name="sigma_phi_0" type="double" value="0.1" />
+  <param name="delta_d" type="double" value="0.02" />
+  <param name="delta_phi" type="double" value="0.05" />
+  <param name="d_max" type="double" value="0.3" />
+  <param name="d_min" type="double" value="-0.15" />
+  <param name="phi_min" type="double" value="-1.5" />
+  <param name="phi_max" type="double" value="1.5" />
+  <param name="cov_v" type="double" value="0.5" />
+  <param name="linewidth_while" type="double" value="0.017" />
+  <param name="linewidth_yellow" type="double" value="0.017" />
+  <param name="lane_width" type="double" value="0.22" />
+  <param name="min_max" type="double" value="0.1" />
+  <param name="use_min_segs" type="bool" value="False" />
+  <param name="min_segs" type="int" value="1" />
+  <param name="use_maximum_segment_dist" type="bool" value="False" />
+  <param name="max_segment_dist" type="double" value="0.3" />
+  <param name="use_distance_weighting" type="bool" value="False" />
+  <param name="zero_val" type="int" value="1" />
+  <param name="l_peak" type="int" value="1" />
+  <param name="peak_val" type="int" value="10" />
+  <param name="l_max" type="int" value="2" />
+  <param name="use_propagation" type="bool" value="False" />
+  <param name="sigma_d_mask" type="double" value="0.05" />
+  <param name="sigma_phi_mask" type="double" value="0.05" />
+</node>
+\endverbatim
+

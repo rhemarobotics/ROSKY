@@ -1,0 +1,8 @@
+prefix=/home/icshop/ROSKY/catkin_ws/install
+
+Name: rosky_base
+Description: Description of rosky_base
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
